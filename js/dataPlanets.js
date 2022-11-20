@@ -20,7 +20,7 @@ const data = [
     star: 'Alpheratz',
     resources: '40%',
     cost: '1',
-    img: '../img/2.png',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Bringer_of_War_Planet.png',
     value: 'billion',
   },
   {
@@ -32,7 +32,7 @@ const data = [
     star: 'Mirach',
     resources: '30%',
     cost: '2',
-    img: '../img/3.png',
+    img: 'https://png.monster/wp-content/uploads/2022/07/png.monster-843.png',
     value: 'quadrillion',
   },
   {
@@ -44,7 +44,7 @@ const data = [
     star: 'Almach',
     resources: '20%',
     cost: '3',
-    img: '../img/4.png',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Populated_Planet.png/1024px-Populated_Planet.png',
     value: 'billion',
   },
   {
@@ -56,7 +56,7 @@ const data = [
     star: 'Adhil',
     resources: '10%',
     cost: '4',
-    img: '../img/5.png',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ice_planet.png/1200px-Ice_planet.png',
     value: 'million',
   },
   {
@@ -68,7 +68,7 @@ const data = [
     star: 'Titawin',
     resources: '60%',
     cost: '5',
-    img: '../img/6.png',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Gajillion_Islands_Planet.png',
     value: 'billion',
   },
   {
@@ -80,7 +80,7 @@ const data = [
     star: 'Castor',
     resources: '70%',
     cost: '6',
-    img: '../img/7.png',
+    img: 'https://images.pngnice.com/download/2007/Space-Planet-PNG-Photos.png',
     value: 'quadrillion',
   },
   {
@@ -92,7 +92,7 @@ const data = [
     star: 'Pollux',
     resources: '80%',
     cost: '7',
-    img: '../img/8.png',
+    img: 'https://www.pngkit.com/png/full/288-2881214_1-photos-sci-fi-planet-png.png',
     value: 'billion',
   },
   {
@@ -104,7 +104,7 @@ const data = [
     star: 'Wasat',
     resources: '90%',
     cost: '8',
-    img: '../img/9.png',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Bringer_of_War_Planet.png',
     value: 'million',
   },
   {
@@ -116,7 +116,7 @@ const data = [
     star: 'Propus',
     resources: '100%',
     cost: '9',
-    img: '../img/10.png',
+    img: 'https://pngimg.com/uploads/mars_planet/mars_planet_PNG28.png',
     value: 'billion',
   },
 ]
