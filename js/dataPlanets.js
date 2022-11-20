@@ -8,7 +8,7 @@ const data = [
     star: 'Nembus',
     resources: '50%',
     cost: '8',
-    img: '../img/1.png',
+    img: 'https://officialpsds.com/imageview/7l/0l/7l0lm0_large.png?1521316541',
     value: 'quadrillion',
   },
   {
