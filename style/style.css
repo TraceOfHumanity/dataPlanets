@@ -296,6 +296,12 @@ h2 {
   font-weight: 700;
   font-size: 28px;
 }
+.card .card__cost .cost__down {
+  color: green;
+}
+.card .card__cost .cost__up {
+  color: red;
+}
 .card .card__cost .value {
   font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

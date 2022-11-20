@@ -37,7 +37,7 @@ function genereteCard() {
         </div>
         <div class="card__cost">
           <label>Cost:</label>
-          <span class="cost" id="cost">${data[i].cost}</span>
+          <span class="cost ${data[i].cost < 4 ? 'cost__down' : data[i].cost > 7 ? 'cost__up' : ''}" id="cost">${data[i].cost}</span>
           <span class="value" id="value">${data[i].value}</span>
         </div>
       </div>
