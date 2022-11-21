@@ -3,6 +3,10 @@ const domElements = {
   search: {
     input: document.getElementById('search-input'),
     button: document.getElementById('search-button'),
+  },
+  filters: {
+    age: document.getElementById('filter-age'),
+    type: document.getElementById('filter-color'),
   }
 }
 
@@ -64,6 +68,7 @@ domElements.results.innerHTML = cardArr.join('');
   domElements.search.input.oninput = (event) => {
     searchValue = event.target.value
     // console.log(searchValue)
+    filterSearch()
   }
 
   domElements.search.button.onclick = () => {
@@ -82,5 +87,10 @@ domElements.results.innerHTML = cardArr.join('');
       }
     })
     domElements.results.innerHTML = genereteCard(filteredCardsData).join('')
+  }
+}
+{
+  domElements.filters.type.onchange = ()=> {
+    console.log('message')
   }
 }

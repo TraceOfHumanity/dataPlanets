@@ -2,7 +2,7 @@ const cardData = [
   {
     id: 1,
     title: 'Ceres',
-    age: '14 000 000',
+    age: '14000000',
     weight: '5,972E24',
     type: 'blue',
     star: 'Nembus',
@@ -14,7 +14,7 @@ const cardData = [
   {
     id: 2,
     title: 'Pallas',
-    age: '13 000 000',
+    age: '13000000',
     weight: '6,972E24',
     type: 'red',
     star: 'Alpheratz',
@@ -26,7 +26,7 @@ const cardData = [
   {
     id: 3,
     title: 'Juno',
-    age: '12 000 000',
+    age: '12000000',
     weight: '7,972E24',
     type: 'green',
     star: 'Mirach',
@@ -38,7 +38,7 @@ const cardData = [
   {
     id: 4,
     title: 'Vesta',
-    age: '11 000 000',
+    age: '14000000',
     weight: '8,972E24',
     type: 'blue',
     star: 'Almach',
@@ -50,7 +50,7 @@ const cardData = [
   {
     id: 5,
     title: 'Astraea',
-    age: '10 000 000',
+    age: '10000000',
     weight: '9,972E24',
     type: 'red',
     star: 'Adhil',
@@ -62,7 +62,7 @@ const cardData = [
   {
     id: 6,
     title: 'Hebe',
-    age: '9 000 000',
+    age: '9000000',
     weight: '10,972E24',
     type: 'green',
     star: 'Titawin',
@@ -74,7 +74,7 @@ const cardData = [
   {
     id: 7,
     title: 'Iris',
-    age: '8 000 000',
+    age: '8000000',
     weight: '11,972E24',
     type: 'blue',
     star: 'Castor',
@@ -86,7 +86,7 @@ const cardData = [
   {
     id: 8,
     title: 'Flora',
-    age: '7 000 000',
+    age: '14000000',
     weight: '12,972E24',
     type: 'red',
     star: 'Pollux',
@@ -98,7 +98,7 @@ const cardData = [
   {
     id: 9,
     title: 'Metis',
-    age: '6 000 000',
+    age: '6000000',
     weight: '13,972E24',
     type: 'green',
     star: 'Wasat',
@@ -110,7 +110,7 @@ const cardData = [
   {
     id: 10,
     title: 'Parthenope',
-    age: '5 000 000',
+    age: '5000000',
     weight: '14,972E24',
     type: 'blue',
     star: 'Propus',
@@ -122,7 +122,7 @@ const cardData = [
   {
     id: 11,
     title: 'Nysa',
-    age: '8 000 000',
+    age: '10000000',
     weight: '11,972E24',
     type: 'blue',
     star: 'Castor',
@@ -134,7 +134,7 @@ const cardData = [
   {
     id: 12,
     title: 'Urania',
-    age: '14 000 000',
+    age: '14000000',
     weight: '5,972E24',
     type: 'blue',
     star: 'Pollux',
@@ -146,7 +146,7 @@ const cardData = [
   {
     id: 13,
     title: 'Euterpe',
-    age: '12 000 000',
+    age: '12000000',
     weight: '7,972E24',
     type: 'green',
     star: 'Alhena',
@@ -158,7 +158,7 @@ const cardData = [
   {
     id: 14,
     title: 'Phocaea',
-    age: '11 000 000',
+    age: '11000000',
     weight: '8,972E24',
     type: 'blue',
     star: 'Wasat',
@@ -170,7 +170,7 @@ const cardData = [
   {
     id: 15,
     title: 'Kalliope',
-    age: '10 000 000',
+    age: '10000000',
     weight: '9,972E24',
     type: 'red',
     star: 'Mebsuta',
@@ -182,7 +182,7 @@ const cardData = [
   {
     id: 16,
     title: 'Lutetia',
-    age: '9 000 000',
+    age: '9000000',
     weight: '10,972E24',
     type: 'green',
     star: 'Mekbuda',
@@ -194,7 +194,7 @@ const cardData = [
   {
     id: 17,
     title: 'Massalia',
-    age: '8 000 000',
+    age: '8000000',
     weight: '11,972E24',
     type: 'blue',
     star: 'Propus',
@@ -206,7 +206,7 @@ const cardData = [
   {
     id: 18,
     title: 'Thetis',
-    age: '7 000 000',
+    age: '7000000',
     weight: '12,972E24',
     type: 'red',
     star: 'Tejat',
@@ -218,7 +218,7 @@ const cardData = [
   {
     id: 19,
     title: 'Psyche',
-    age: '6 000 000',
+    age: '6000000',
     weight: '13,972E24',
     type: 'green',
     star: 'Jishui',
@@ -230,7 +230,7 @@ const cardData = [
   {
     id: 20,
     title: 'Irene',
-    age: '5 000 000',
+    age: '5000000',
     weight: '14,972E24',
     type: 'blue',
     star: 'Intercrus',
@@ -242,7 +242,7 @@ const cardData = [
   {
     id: 21,
     title: 'Eunomia',
-    age: '8 000 000',
+    age: '8000000',
     weight: '11,972E24',
     type: 'blue',
     star: 'Dubhe',
