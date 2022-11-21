@@ -36,7 +36,7 @@ function star(x, y, z) {
   this.y = y;
   this.z = z;
   this.radius = radius;
-  this.color = "#b0f8ff";
+  this.color = "#ccfbff";
   starsIndex++;
   stars[starsIndex] = this;
   this.id = starsIndex;
@@ -79,7 +79,7 @@ function star2(x, y, z) {
   this.y = y;
   this.z = z;
   this.radiusYellStars = radiusYellStars;
-  this.color = "#ffc800";
+  this.color = "#ffdc5e";
   starsIndex++;
   stars[starsIndex] = this;
   this.id = starsIndex;
@@ -122,7 +122,7 @@ function star3(x, y, z) {
   this.y = y;
   this.z = z;
   this.radiusOrangeStars = radiusOrangeStars;
-  this.color = "#ff612c";
+  this.color = "#ff3636";
   // this.createRadialGradient(0, 150, 50, 0, 140, 90);
   starsIndex++;
   stars[starsIndex] = this;

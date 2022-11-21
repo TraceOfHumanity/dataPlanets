@@ -1,6 +1,13 @@
-const results = document.getElementById('results');
-console.log(data)
-function genereteCard() {
+const domElements = {
+  results: document.getElementById('results'),
+  search: {
+    input: document.getElementById('search-input'),
+    button: document.getElementById('search-button'),
+  }
+}
+
+// console.log(domElements)
+function genereteCard(data) {
   const cards = [];
   for (i = 0; i < data.length; i++) {
     cards.push(`
@@ -47,6 +54,33 @@ function genereteCard() {
   return cards;
 }
 
-const cardArr = genereteCard(10);
+const cardArr = genereteCard(cardData);
 console.log(cardArr);
-results.innerHTML = cardArr.join('');
+domElements.results.innerHTML = cardArr.join('');
+
+{
+  let searchValue = ''
+
+  domElements.search.input.oninput = (event) => {
+    searchValue = event.target.value
+    // console.log(searchValue)
+  }
+
+  domElements.search.button.onclick = () => {
+    // alert('1')
+    filterSearch()
+  }
+
+  function filterSearch() {
+    const rgx = new RegExp(searchValue, 'i')
+    console.log(rgx)
+    let filteredCardsData = cardData.filter(card => {
+      if (rgx.test(card.title)) {
+        return true
+      } else {
+        return false
+      }
+    })
+    domElements.results.innerHTML = genereteCard(filteredCardsData).join('')
+  }
+}
