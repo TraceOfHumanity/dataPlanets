@@ -7,6 +7,7 @@ const domElements = {
   filters: {
     age: document.getElementById('filter-age'),
     type: document.getElementById('filter-color'),
+    cost: document.getElementById('filter-cost'),
   }
 }
 
@@ -90,7 +91,47 @@ domElements.results.innerHTML = cardArr.join('');
   }
 }
 {
-  domElements.filters.type.onchange = ()=> {
-    console.log('message')
+  const filtersType = [
+    'age',
+    'cost',
+    'type',
+  ]
+  function filterSelect(filterType){
+    domElements.filters[filterType].onchange = (event) => {
+      const value = event.target.value
+      const filteredCards = cardData.filter(card => {
+        const reg = new RegExp(value)
+        if (reg.test(card[filterType])) {
+          return true
+        } else {
+          return false
+        }
+  
+      })
+      const fullFilteredCards = checkOtherFilters(filtersType, filteredCards)
+      const filteredCardsHTML = genereteCard(fullFilteredCards)
+      domElements.results.innerHTML = filteredCardsHTML.join('')
+    }
+  }
+
+  filtersType.forEach(type => filterSelect(type))
+
+
+  function checkOtherFilters(filtersType, filteredCards){ 
+    let updateFilteredCards = filteredCards
+
+    filtersType.forEach(type => {
+      const value = domElements.filters[type].value
+      const reg = new RegExp(value)
+      const newFilterCards = updateFilteredCards.filter(card => {
+        if(reg.test(card[type])){
+          return true
+        } else {
+          return false
+        }
+      })
+      updateFilteredCards = newFilterCards
+    })
+    return updateFilteredCards
   }
 }
